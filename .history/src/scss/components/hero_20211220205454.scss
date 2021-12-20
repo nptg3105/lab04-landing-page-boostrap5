@@ -1,0 +1,22 @@
+@use '../globals'as *;
+@use '../utilities'as *;
+
+html,
+body,
+header {
+    height: 100%;
+}
+
+.hero {
+    height: 100%;
+    // min-width: 100vw;
+    max-height: 100vh;
+    background-image: url("/images/hero.jpg");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    // height: inherit;
+    // background: url("/images/hero.jpg") no-repeat center center fixed;
+    // background-size: cover;
+}

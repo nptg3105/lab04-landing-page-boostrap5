@@ -1,0 +1,15 @@
+@use '../globals'as *;
+@use '../utilities'as *;
+
+html,
+body,
+header {
+    height: 100%;
+}
+
+.hero {
+    height: 760px;
+    background: url("../images/hero1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-width: 100%;
+}

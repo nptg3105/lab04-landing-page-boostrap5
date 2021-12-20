@@ -1,0 +1,19 @@
+@use '../globals'as *;
+@use '../utilities'as *;
+
+html,
+body,
+header {
+    height: 100vh;
+}
+
+.hero {
+    height: inherit;
+    background: url(https://images.unsplash.com/photo-1639972584775-e23e861f1595?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+main {
+    z-index: 10;
+}

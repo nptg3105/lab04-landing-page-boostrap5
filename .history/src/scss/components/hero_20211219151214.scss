@@ -1,0 +1,14 @@
+@use '../globals'as *;
+@use '../utilities'as *;
+
+html,
+body,
+header {
+    height: 100vh;
+}
+
+.hero {
+    height: inherit;
+    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg") no-repeat center center fixed;
+    background-size: cover;
+}

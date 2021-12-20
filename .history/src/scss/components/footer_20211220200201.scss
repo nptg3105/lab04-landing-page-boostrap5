@@ -1,0 +1,22 @@
+.footer {
+    &__title {
+        position: relative;
+        // margin-bottom: 40px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            display: block;
+            background-color: #000;
+            height: 1px;
+            width: 60px;
+            margin-top: 8px;
+            top: 100%;
+            left: 50%;
+            transform: translate(-50%, -100%);
+
+            // margin-bottom: 40px;
+            @media (min-width: 576px) {}
+        }
+    }
+}

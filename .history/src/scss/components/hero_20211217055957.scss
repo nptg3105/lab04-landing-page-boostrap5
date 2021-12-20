@@ -1,0 +1,9 @@
+@use '../globals'as *;
+@use '../utilities'as *;
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background: url(images/hero.jpg) no-repeat center center fixed;
+    ;
+}

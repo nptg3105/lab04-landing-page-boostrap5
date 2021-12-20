@@ -1,0 +1,18 @@
+.footer {
+    &__title {
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            display: block;
+            background-color: #eee;
+            height: 1px;
+            width: 25%;
+            top: 100%;
+            left: 0;
+            transform: translateY(-100%);
+            margin-bottom: 4px;
+        }
+    }
+}

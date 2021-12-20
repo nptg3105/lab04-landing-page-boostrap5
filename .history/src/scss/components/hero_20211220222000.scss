@@ -1,0 +1,19 @@
+@use '../globals'as *;
+@use '../utilities'as *;
+
+html,
+body,
+header {
+    height: 100%;
+}
+
+.hero {
+    height: inherit;
+    background-image: url("../images/hero1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 100%;
+    // background: url("/images/hero.jpg") no-repeat center center fixed;
+}

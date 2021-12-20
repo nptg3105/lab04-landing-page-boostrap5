@@ -1,0 +1,7 @@
+.stunning__images {
+    overflow: hidden;
+
+    &:hover img {
+        opacity: 0.5;
+    }
+}

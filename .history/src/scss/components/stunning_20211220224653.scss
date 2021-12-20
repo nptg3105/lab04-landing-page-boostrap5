@@ -1,0 +1,13 @@
+.stunning {
+    &__images {
+        overflow: hidden;
+
+        img {
+            transition: transform 0.5s ease;
+        }
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
